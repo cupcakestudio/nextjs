@@ -3,7 +3,7 @@ export default function RandomDog({imgUrl}) {
  console.log(imgUrl);
   return (<>
     <h1>Random dog</h1>
-    
+    <pre>{JSON.stringify(data, null, 2)}</pre>
     <img src={imgUrl} alt="random dog"/>
     
     </>
